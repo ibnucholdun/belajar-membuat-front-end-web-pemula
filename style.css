@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input,
+button {
+    font-size: 16px;
+}
+
+.head_bar,
+footer {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0cce6b;
+    color: white;
+}
+
+main {
+    width: auto;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+    overflow: auto;
+    align-items: center;
+
+}
+
+.input_section {
+    float: left;
+    padding: 16px;
+    width: 40%;
+}
+
+.input_section>h2 {
+    text-align: center;
+    color: #0cce6b;
+}
+
+.input_section>form>.input {
+    margin: 8px 0;
+}
+
+.input_section>form>button {
+    background-color: #0cce6b;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section>form>button>span {
+    font-weight: bold;
+}
+
+.input_section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input_section>form>.input>label {
+    color: #0cce6b;
+    font-weight: bold;
+}
+
+.input_section>form>.input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section>form>.input_inline>label {
+    color: #0cce6b;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.containerRight {
+    float: right;
+    width: 58%;
+
+}
+
+.search_section {
+    align-items: center;
+    padding: 16px 16px 10px;
+}
+
+.search_section>h2 {
+    color: #0cce6b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+.search_section>form {
+    padding: 0 16px;
+    width: 100%;
+    border: 1px solid #0cce6b;
+    border-radius: 50px;
+}
+
+.search_section>form>table {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+table tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#searchBookTitle {
+    width: 100%;
+    border: none;
+}
+
+#searchBookTitle:focus {
+    outline: none;
+}
+
+.material-icons {
+    color: #0cce6b;
+    padding: 0;
+}
+
+.book_shelf {
+    padding: 16px;
+}
+
+.book_shelf>h2 {
+    color: #0cce6b;
+    border-bottom: 2px solid #0cce6b;
+}
+
+.book_shelf>.book_list>.item {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.book_shelf>.book_list>.item>h3,
+p {
+    margin: 8px 0;
+}
+
+.book_shelf>.book_list>.item>.action>button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check-button {
+    background: url(assets/check-outline.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.check-button:hover {
+    background: url(assets/check-solid.svg);
+    background-size: contain;
+}
+
+.trash-button {
+    background: url(assets/trash-outline.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.trash-button:hover {
+    background: url(assets/trash-fill.svg);
+    background-size: contain;
+}
+
+.undo-button {
+    background: url(assets/undo-ouline.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.undo-button:hover {
+    background: url(assets/undo-ouline.svg);
+    background-size: contain;
+}
+
+.item {
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0cce6b
+}
+
+.item>.inner h2 {
+    margin-bottom: unset;
+    color: #03045e;
+}
+
+.item>.inner p {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .input_section {
+        float: none;
+        width: 100%;
+    }
+
+    .containerRight {
+        float: none;
+        width: 100%;
+    }
+
+    .search_section {
+        width: 100%;
+    }
+
+    .book_shelf {
+        width: 100%;
+    }
+}
