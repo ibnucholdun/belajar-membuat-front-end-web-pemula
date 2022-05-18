@@ -32,6 +32,7 @@ main {
     background-color: white;
     overflow: auto;
     align-items: center;
+    min-height: 100vh;
 
 }
 
