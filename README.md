@@ -1,4 +1,4 @@
-# Dicoding - Submission Belajar Membuat Front-end Web Pemula
+# Dicoding - Submission Belajar Membuat Front-end Web Pemula (Bookshelf Apps)
 
 # Read This
 Project aplikasi ini hanya untuk submission kelas Belajar Membuat Front-end Web Pemula Dicoding, segala bentuk plagiarisme akan otomatis terdeteksi jika menggunakan project aplikasi ini untuk submission. Diharapkan project ini digunakan sebagai referensi belajar dan bukan untuk copy-paste project submission!!!
